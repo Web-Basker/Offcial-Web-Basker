@@ -14,6 +14,7 @@
         z-index: 1;
         /* Prevents white rectangle pseudos from overlapping the sections below */
         overflow: hidden;
+        background-color: var(--primary);
     }
 
     #hero-81:before {
@@ -151,17 +152,6 @@
     }
 }
 
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-    body.dark-mode #hero-81:before,
-    body.dark-mode #hero-81:after {
-        background: var(--dark);
-    }
-
-    body.dark-mode #hero-81 .cs-background:before {
-        opacity: 0.85;
-    }
-}
 
 #hero-81 .cs-button-solid {
     color: var(--primary);
